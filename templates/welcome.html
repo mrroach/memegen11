@@ -1,0 +1,26 @@
+<!--welcome.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <img height="100px" width="150px" src="https://www.publicdomainpictures.net/pictures/90000/velka/alpaca-chewing.jpg" alt="a-chewing-alpaca">
+    <h2>Welcome to my Meme Generator!</h2>
+    <form method="post" action="/memeresult">
+      Line 1 of Meme:<br>
+      <!--Get the user's line1 here-->
+      <br>
+      Line 2 of Meme:<br>
+      <!--Get the user's line2 here-->
+      <br>
+      Meme Type:<br>
+       <!--OK, a big hint on how to do this one, here's a select for you-->
+       <select name="meme-type">
+        <!-- put a couple more options in here. People like options!-->
+        <option value="college-grad">Happy College Grad</option>
+        </select>
+      <input type="submit" value="Go!">
+    </form>
+  </body>
+</html>
